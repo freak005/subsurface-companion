@@ -147,7 +147,7 @@ public class AccountLinkActivity extends SherlockListActivity {
 			
 
 			  final AlertDialog.Builder builders = new AlertDialog.Builder(this);
-              builders.setTitle("Select The Difficulty Level");
+              builders.setTitle("Choose your accounts");
               builders.setSingleChoiceItems(googleAccountsArray, -1, new DialogInterface.OnClickListener() {
               public void onClick(DialogInterface dialog, int item) {
                  
